@@ -6,6 +6,7 @@ Tech stack used:
 * Axon Framework 3.3.1
 * Java 8
 * Spring Boot 2
+* Reactor Core 3
 * Swagger 2
 * Lombok
 * H2 / JPA
