@@ -50,7 +50,7 @@ public class CustomerRestController {
             /* Sending the command to create the customer. */
             commandGateway.sendAndWait(new CreateCustomerCommand(
                     customerId, request.getFirstName(), request.getLastName()));
-            /* Returning the first update send to our find customer query. */
+            /* Returning the first update sent to our find customer query. */
             return log.exit(queryResult.updates().blockFirst());
         } finally {
             /* Closing the subscription query. */
